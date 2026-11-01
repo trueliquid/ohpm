@@ -60,13 +60,13 @@ Add a `package.cfg` to the root of a public repo and push it. No registration is
 
 ```lua
 {
-    name = "nidas-discord",
+    name = "example-package",
     version = "1.0.0",
     files = {
-        ["discord.lua"] = "lib/discord.lua",
-        ["cli/alert.lua"] = "bin/alert.lua"
+        ["example.lua"] = "lib/example.lua",
+        ["cli/package.lua"] = "bin/package.lua"
     },
-    dependencies = {"someone/json-lib", "someone/other-lib@v2"}
+    dependencies = {"someone/cool-tool", "someone/cool-lib@v2"}
 }
 ```
 
