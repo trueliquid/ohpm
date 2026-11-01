@@ -2,6 +2,8 @@
 
 The Open Horizons Package Manager. Installs OpenComputers programs on OpenOS from public GitHub repos.
 
+> **Disclaimer:** this code was written heavily using AI.
+
 ## Install
 
 The computer needs an Internet card. In the shell:
