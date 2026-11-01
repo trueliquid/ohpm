@@ -102,18 +102,6 @@ refuses to overwrite a file that already exists or belongs to another package.
 | `/home/.ohpm/journal.cfg` | The install in progress, only while one is running |
 | `/home/.ohpm/tmp/` | Downloads in progress |
 
-## Tests
-
-They run the real program on the in-game computer against `tests/fake_github.py` on this PC, so they need the bridge
-from `oc-bridge`, next to this folder, with its server running and the world loaded. They use `/home/ohpm` and
-`/home/ohpm-test`, and remove both when finished.
-
-```
-python -m unittest discover -s tests
-```
-
-Run that from this folder.
-
 ## Code layout
 
 | File | What it does |
